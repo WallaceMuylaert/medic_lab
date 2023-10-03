@@ -1,2 +1,2 @@
-# medic_lab
+# MedAdmin
 Gestão de clínicas e consultórios

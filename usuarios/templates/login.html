@@ -21,8 +21,7 @@
         {% endif %}
 
         <div>
-            <form action="{% url 'login' %}" method="POST">
-                {% csrf_token %}
+            <form action="{% url 'login' %}" method="POST">{% csrf_token %} 
                 <label>Username</label>
                 <br>
                 <input type="text" class="input-default" name="username">

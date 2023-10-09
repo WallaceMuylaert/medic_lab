@@ -61,7 +61,7 @@ def logar(request):
         if user:
             """Logar"""
             login(request, user)
-            return redirect('/plataforma')
+            return redirect('/exames/solicitar_exames/')
         else:
             """Não logar"""
             messages.add_message(request, constants.ERROR, "Username ou Senha invalidos!")
